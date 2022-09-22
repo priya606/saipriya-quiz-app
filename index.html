@@ -3,7 +3,7 @@
     <title> my quiz app</title>
     <body>
         making fun quiz app
-        <script src="app.js"></script>
+        <script src="app.js">
         var user=require("readline-sync")
 var userName=user.question("Enter user name ")
 console.log("Welcome to FRIENDS QUIZ "+userName)
@@ -79,6 +79,8 @@ function scores()
 highScore.map(score => console.log(score.name, " : ", score.score))
 }
 scores();
+
 </script>
+
     </body>
 </html>
